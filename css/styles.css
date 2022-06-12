@@ -149,13 +149,14 @@ body {
 }
 
 .hidden {
-  position: absolute !important;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 0 !important;
-  width: 1px !important;
+  position: absolute;
+  width: 1px; 
+  height: 1px;
+  margin: -1px;
+  padding: 0;
   overflow: hidden;
+  border: 0; 
+  clip: rect(0 0 0 0);
 }
 
 .features-list {
