@@ -317,7 +317,11 @@ body {
 
 .card-item {
   background: var(--primary-white-color);
-  /* border: 1px solid #eeeeee; */
+}
+
+.card-item > img {
+  display: block;
+  width: 100%;
 }
 
 .card-item:nth-child(3n+3) {
