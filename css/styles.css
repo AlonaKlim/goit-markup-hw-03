@@ -113,7 +113,6 @@ body {
 
 .hero {
   background-color: var(--color-theme-dark);
-  min-height: 680px;
   padding: 200px 0;
 }
 
